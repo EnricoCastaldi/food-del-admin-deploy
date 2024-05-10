@@ -1,0 +1,37 @@
+.addDod{
+    width: 70%;
+    margin-left: max(5vw,25px);
+    margin-top: 50px;
+    color: #6d6d6d;
+}
+
+.addDod form{
+    gap: 20px;
+}
+
+.addDod-img-upload img{
+    width: 120px;
+}
+
+.addDod-product-name, .addDod-product-description{
+    width: max(40%,280px);
+}
+.addDod-product-name input, .addDod-product-description textarea{
+    padding: 10px;
+}
+.addDod-category-price{
+    display: flex;
+    gap: 30px;
+}
+.addDod-category-price select, .addDod-category-price input{
+    max-width: 120px;
+    padding: 10px;
+}
+.addDod-btn{
+    max-width: 120px;
+    border: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
